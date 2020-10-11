@@ -1,0 +1,10 @@
+<template>
+  <v-btn
+    text
+    class="ml-1"
+    color="cancel"
+    outlined
+    x-small>
+    Eliminar
+  </v-btn>
+</template>

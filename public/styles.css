@@ -1,0 +1,52 @@
+body{
+  font-family: 'Muli', sans-serif;
+}
+.title-login {
+  font-size: 14px;
+  font-weight: bold;
+}
+table thead tr th {
+  color: #0D47A1;
+}
+.no-visible-xs {
+  padding: 0;
+}
+.visible-xs {
+  display: none;
+}
+.link{
+  text-decoration: none;
+  color: blue;
+}
+.link:hover{
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+
+@media (max-width: 575.98px) {
+  table thead tr th {
+    display: none;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .no-visible-xs{
+    display: none;
+  }
+  .visible-xs{
+    display: block;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .no-visible-sm{
+    display: none;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .no-visible-md{
+    display: none;
+  }
+}

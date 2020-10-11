@@ -1,0 +1,9 @@
+<template>
+  <v-btn
+    text
+    color="secondary"
+    outlined
+    x-small>
+    Ver
+  </v-btn>
+</template>

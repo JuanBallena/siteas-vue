@@ -1,0 +1,1 @@
+export const SIN_ESPECIALIDAD = 1
